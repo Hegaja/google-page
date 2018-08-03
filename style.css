@@ -6,14 +6,14 @@
 }
 
 .header a {
-  color: black;
+  color: #000;
   text-decoration: none;
   padding-left: 10px;
   padding-right: 5px;
   margin-right: 2px;
 }
 .footer a {
-  color: black;
+  color: rgb(102, 102, 102);
   text-decoration: none;
   padding-left: 10px;
   padding-right: 5px;
@@ -22,6 +22,7 @@
 
 a:hover {
   text-decoration: underline;
+  color: #000;
 }
 
 .body {
@@ -76,7 +77,6 @@ img {
 
 .footer {
   position: fixed;
-
   bottom: 0;
   background-color: rgb(242, 242, 242);
   padding: 1%;
@@ -104,4 +104,17 @@ img {
 body,
 html {
   height: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEvSURBVEhL7dM/S4JBAMfxJxJ6AaXQJEWbINIcvoQwcpMgolFHWxujoBp0DJeglpolgvaGwGiLKOeoSaQapL6/u1zk0eeuP+LgFz5094R3Pvf4BKPaLNawhRKymMSvS+AYHXz2aGIVP24OT2hjBylMYRp5XEMbbcO7GBp4RkYXQtIRHUGbrOiCT5vQB5fNrH/aRHfy+D127gq3dhiZnoO+zJKZOfaCih1GFoc2KJqZYx/YtcPI9OC1QdnMHHvAmR1GloY2KJiZY1W0MGNmg9Od6j3RO+PcAt5xggld6NMi3lAzM8/q0K2fIuxOcniFjlMP2qtDaPEL6BvquM6xBx3fHfT/GyThVXdx/VXz0E/2Hjo2vd2XWIfeeK96F//TxouHto9/W1xt4MAOxw2lIPgCSGJHhmvnxE4AAAAASUVORK5CYII=');
+    background-position: 5px 3px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
 }
