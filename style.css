@@ -76,7 +76,7 @@ img {
 
 .footer {
   position: fixed;
-  
+
   bottom: 0;
   background-color: rgb(242, 242, 242);
   padding: 1%;
@@ -89,9 +89,6 @@ img {
   content: "";
   display: contents;
   clear: both;
-  
-  
-
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
@@ -101,14 +98,10 @@ img {
   }
 }
 #secondFooter {
-    
-    text-align: right;
-
-    
-    
-
+  text-align: right;
 }
 
-body,html{
-    height:100%;
-   }
+body,
+html {
+  height: 100%;
+}
